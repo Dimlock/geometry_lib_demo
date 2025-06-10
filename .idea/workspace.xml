@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e026c25c-877a-4136-b968-3d747c505b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/geometry_lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/factories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/factories/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/factories/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/factories/triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/shapes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/shapes/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/shapes/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/shapes/triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="e026c25c-877a-4136-b968-3d747c505b68" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geometry_lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geometry_lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/factories/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/factories/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/factories/circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/factories/circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/factories/triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/factories/triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/shapes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/shapes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/shapes/circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/shapes/circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/shapes/triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/shapes/triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_circle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +44,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.pytest for test_circle.test_area.executor": "Run",
+    "Python tests.pytest for test_circle.test_circle_area.executor": "Run",
+    "Python tests.pytest for test_triangle.test_is_right.executor": "Run",
+    "Python tests.pytest for test_triangle.test_triangle_area.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_triangle.test_triangle_area">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="geometry_lib" />
       <option name="ENV_FILES" value="" />
@@ -74,6 +77,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_circle.test_area" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="geometry_lib" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_circle.test_area&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_circle.test_circle_area" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="geometry_lib" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_circle.test_circle_area&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_triangle.test_is_right" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="geometry_lib" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_triangle.test_is_right&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_triangle.test_triangle_area" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="geometry_lib" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_triangle.test_triangle_area&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_triangle.test_triangle_area" />
+        <item itemvalue="Python tests.pytest for test_triangle.test_is_right" />
+        <item itemvalue="Python tests.pytest for test_circle.test_circle_area" />
+        <item itemvalue="Python tests.pytest for test_circle.test_area" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -91,6 +170,30 @@
       <option name="presentableId" value="Default" />
       <updated>1749541384937</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1749547004642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749547004642</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

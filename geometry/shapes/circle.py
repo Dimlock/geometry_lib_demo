@@ -1,4 +1,4 @@
-from base import Figure
+from .base import Figure
 from math import pi
 
 
@@ -7,4 +7,4 @@ class Circle(Figure):
         self.radius = radius
 
     def area(self) -> float:
-        return pi * self.radius ** 2
+        return round(pi * self.radius ** 2, 2)

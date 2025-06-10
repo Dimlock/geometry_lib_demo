@@ -1,4 +1,4 @@
-from base import FigureCreator
+from .base import FigureCreator
 from geometry.shapes.triangle import Triangle
 
 
